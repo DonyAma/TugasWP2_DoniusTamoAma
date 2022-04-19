@@ -9,7 +9,7 @@
         <table>
             <tr>
                 <th colspan="3">
-                    Tampil Data Mahasiswa
+                    <b> Data Mahasiswa </b>
                 </th>
             </tr>
             <tr>

@@ -10,7 +10,7 @@
             <table>
                 <tr>
                     <th colspan="3">
-                        Form Input Data Mahasiswa
+                        <b> Input Data Mahasiswa </b>
                     </th>
                 </tr>
                 <tr>
@@ -29,7 +29,7 @@
                     <th>Nis</th>
                     <th>:</th>
                     <td>
-                        <input type="number" name="nama" id="nama" placeholder="Input Nis">
+                        <input type="text" name="nama" id="nama" placeholder="Input Nis">
                     </td>
                 </tr>
                 <tr>
@@ -57,7 +57,7 @@
                     <th>Alamat</th>
                     <th>:</th>
                     <td>
-                        <input type="text" name="alamat" id="alamat" placeholder="Input Alamat">
+                        <textarea name="alamat" id="alamat" cols="19" rows="5"></textarea>
                     </td>
                 </tr>
                 <tr>
@@ -73,6 +73,7 @@
                     <th>:</th>
                     <td>
                         <select name="agama" id="agama">
+                            <option value="pilih agama">--Pilih Agama--</option>
                             <option name="agama" id="agama" value="Islam">Islam</option>
                             <option name="agama" id="agama" value="Kristen">Kristen</option>
                             <option name="agama" id="agama" value="Katolik">Katolik</option>
@@ -84,7 +85,10 @@
                 </tr>
                 <tr>
                     <td colspan="3" align="center">
-                        <input type="submit" value="Submit">
+                        <br>
+                        <input type="submit" value="Kirim">
+                        <br><br>
+                        <input type="reset" value="Hapus">
                     </td>
                 </tr>
             </table>
